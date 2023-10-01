@@ -1,0 +1,77 @@
+.square {
+  border: 2px solid purple;
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+  display: block;
+  position: relative;
+}
+
+.circle {
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+  background: yellow;
+  animation: circle 4s infinite linear;
+  position: absolute;
+  top: 0;
+  display: inline-block;
+}
+
+@keyframes circle {
+  0% {
+    left: 0;
+    top: 0;
+  }
+
+  10% {
+    top: 15%;
+    left: 5%;
+  }
+
+  20% {
+    top: 33%;
+    left: 8%;
+  }
+
+  30% {
+    top: 63%;
+    left: 10%;
+  }
+
+  40% {
+    top: 95%;
+    left: 13%;
+  }
+
+  50% {
+    top: 75%;
+    left: 27%;
+
+  }
+
+  60% {
+    top: 95%;
+    left: 41%;
+  }
+
+  70% {
+    top: 85%;
+    left: 55%;
+  }
+
+  80% {
+    top: 95%;
+    left: 69%;
+  }
+
+  90% {
+    top: 89%;
+    left: 83%;
+  }
+
+  100% {
+    top: 95%;
+    left: 100%;
+  }
+}

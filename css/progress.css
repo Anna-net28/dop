@@ -1,0 +1,30 @@
+.progress {
+    height: 25px;
+    border: 1px solid green;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.progressbar {
+    width: 90%;
+    height: 24px;
+    background: green;
+    animation: progressbar 5s linear;
+}
+
+@keyframes progressbar {
+    0% {
+        background: green;
+        width: 0;
+    }
+
+    50% {
+        background: green;
+        width: 50%;
+    }
+
+    90% {
+        background: green;
+        width: 90%;
+    }
+}
